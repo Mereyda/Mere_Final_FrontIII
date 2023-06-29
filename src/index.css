@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.favButton{
+  background-color: rgba(136, 136, 136, 0.116);
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  width: 80vw;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+a:hover{
+  color: rgb(136, 136, 136);
+} 
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  bottom: 0;
+  width: 500%;
+  height: 40px;
+ 
+}
+
+
+/* footer > img{
+  width: 200px;
+  margin: 0;
+}
+footer > p{
+  margin: 0;
+  padding-top: 0.7rem;
+} */
+
+.form{
+
+  margin: 0 auto;
+  border: 2px;
+  text-align: center;
+  padding: 15px;
+}
+.contact{
+  height: 75vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 3%;
+}
+.card{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  border: 0.5px solid rgb(136, 136, 136);
+}
+
+.card:hover{
+  border: 0.5px solid rgb(206, 217, 142);
+}
+
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 90vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+table {
+ border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dark{
+  background-color: #12121296;
+  color: white;
+}
+.dark > a {
+  color: white;
+}
+
+.imagen{
+  width: 100%;
+
+}
+h2 a {
+  color: rgb(21, 133, 60);
+}
+
+/* .favButton{
+  background-color: rgb(198, 239, 225);
+} */
+
+footer{
+  /* background-color: rgb(88, 150, 110); */
+  width: 100%;
+  height: 6rem;
+}
+
+/* footer >img{
+  width: 200px;
+ 
+} */
+.redes{
+  height: 5rem;
+
+
+}
+
+.icon{
+  width: 5rem;
+}
+.face{
+  width: 2rem;
+}
+.insta{
+  width: 2rem;
+}
+.tiktok{
+  width: 2rem;
+}
+.wsp{
+  width: 2rem;
+}
+
+.navegador{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: rgb(101, 162, 122);
+  padding-bottom: 2%;
+}
+
+.home{
+  padding-top: 2%;
+  width: 100%;
+}
+.favs{
+  padding-top: 2%;
+  width: 100%;
+  height: 75vh;
+}
