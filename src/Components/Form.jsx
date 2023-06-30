@@ -18,7 +18,6 @@ const Form = () => {
   };
 
   return (
-    // <div className='form'>
       <form onSubmit={handleSubmit} className='form'>
         <label>
           Nombre completo:
@@ -38,7 +37,6 @@ const Form = () => {
       {successMessage && <p>{successMessage}</p>}
       </form>
      
-    // </div>
   );
 };
 

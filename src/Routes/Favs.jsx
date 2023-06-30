@@ -17,7 +17,7 @@ const Favs = () => {
     <>
     <section className="favs" style={{background:tema.home}}> 
 
-      <h1>Dentists Favs</h1>
+      <h1>Odontologos Favoritos</h1>
       <div className="card-grid">
       {dentist.map(item => (
           <Card name={item.name} username={item.username} key={item.id} id={item.id}/>

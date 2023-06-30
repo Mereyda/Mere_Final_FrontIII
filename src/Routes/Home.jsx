@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <main className="home" style={{background:tema.home, color: tema.letras}}>
-      <h1>Home</h1>
+      <h1>Bienvenidos al centro Odontologico</h1>
       <div className="card-grid">
         {data?.map((item) => {
           return (

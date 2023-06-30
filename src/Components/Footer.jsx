@@ -18,10 +18,10 @@ const Footer = () => {
         <p>Powered by</p>
         <a href="https://playground.digitalhouse.com/login"> <img className='icon' src={logo} alt="digital" />  </a>
         {/* <img src={logo} alt='DH-logo' /> */}
-        <a  href="https://www.facebook.com/"><img className='face' src={facebook} alt='face' /> </a>
-        <a href="https://instagram.com"><img className='insta' src={instagram} alt='' /></a>
-        <a href="https://tiktok.com"><img className='tiktok' src={tiktok} alt='' /></a>
-        <a href="https://whatspp"><img className='wsp' src={whatsapp} alt='' /></a>
+        <a  href="https://www.facebook.com/"><img className='face' src={facebook} alt='ir a facebook' /> </a>
+        <a href="https://instagram.com"><img className='insta' src={instagram} alt='ir a instagram' /></a>
+        <a href="https://tiktok.com"><img className='tiktok' src={tiktok} alt='ir a tiktok' /></a>
+        <a href="https://whathapps"><img className='wsp' src={whatsapp} alt='ir a whatapps' /></a>
         </div>
         
 

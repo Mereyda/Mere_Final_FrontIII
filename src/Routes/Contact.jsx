@@ -10,7 +10,7 @@ const Contact = () => {
   return (
      <div className='contact' style={{background: tema.contact}}>
      <h2>Queres saber mas de nosotros</h2>
-     <p>Complata aqui tus datos</p>
+     <p>Completa aqui tus datos</p>
       <Form/>
     </div>
   )
