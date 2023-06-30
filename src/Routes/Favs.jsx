@@ -9,6 +9,7 @@ import { useContext } from "react";
 //Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
 
 const Favs = () => {
+  
   let dentist = JSON.parse(localStorage.getItem("odontologos"));
   const {tema} = useContext(ContextGlobal)
  

@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import img from "../images/doctor.jpg"
+// import { ContextGlobal } from "./utils/global.context";
 
 
 
 const Card = ({ name, username, id }) => {
+  // const { theme } = useContext(ContextGlobal)
+  
 
   const dentista = { //definimos un objeto
     id,
