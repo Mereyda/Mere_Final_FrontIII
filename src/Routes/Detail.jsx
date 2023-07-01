@@ -1,14 +1,16 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import { useParams } from 'react-router-dom'
-
+import { ContextGlobal } from '../Components/utils/global.context' 
 
 //Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
 
 const Detail = () => {
+  const {tema} = useContext(ContextGlobal)
   const [dentista, setDentista] = useState({})
   const params = useParams()
 
   async function handleFetch (){
+    
     const response = await (
       await fetch (`https://jsonplaceholder.typicode.com/users/${params.id}`)
     ).json()
@@ -22,8 +24,8 @@ const Detail = () => {
 
   return (
     <>
-    <section>
-      <h1>Detail Dentist id </h1>
+    <section className='detalles' style={{background:tema.detals}}>
+      <h1>Detalles de nuestros Odontologos </h1>
       {/* aqui deberan renderizar la informacion en detalle de un user en especifico */}
       {/* Deberan mostrar el name - email - phone - website por cada user en especifico */}
       <table>

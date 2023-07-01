@@ -12,6 +12,14 @@ const Favs = () => {
   
   let dentist = JSON.parse(localStorage.getItem("odontologos"));
   const {tema} = useContext(ContextGlobal)
+
+  // function deleteFromFavs(user){
+  //   const someFav = favs.some((fav) =>)
+
+  // }
+  // some: true or false
+  //   find: elemento del arreglo que cumple la condicion
+  //   filter: un arreglo con los elementos que cumplen la condicion
  
 
   return (
